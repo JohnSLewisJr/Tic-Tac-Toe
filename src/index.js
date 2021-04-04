@@ -44,7 +44,6 @@ class Board extends React.Component {
     render() { //call calculateWinner(squares) in the Board's render function to check if a player has won. If player has won, display text either "Winner: X" or "Winner: O"
         return (
             <div>
-                <div className="status">{status}</div>
                 <div className="board-row">
                     {this.renderSquare(0)}
                     {this.renderSquare(1)}
